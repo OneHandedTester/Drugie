@@ -1,10 +1,14 @@
-r = input ("Podaj promień koła w centymetrach (cm): ")
-float (r)
-float (3.14)
-int (2)
+# wzór na pole pi x r (promień) do kwadratu
+# gdzie x = promien, y = liczba pi, z = kwadrat
 
-wynik = 3.14 * r ** 2
-print ("Pole koła o promieniu"+r+"wynosi:"+wynik+"cm kwadratowych.")
+x = float (20.0)
+y = float (3.14)
+z = float (2.0)
+
+pole = y * x ** z
+
+print ('Za wartość "pi" przyjęto wartość 3.14.')
+print (pole)
 
 
 
